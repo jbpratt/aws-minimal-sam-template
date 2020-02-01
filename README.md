@@ -25,7 +25,7 @@ Template location (git, mercurial, http(s), zip, path): https://github.com/jbpra
 Build and Deploy
 ----------------
 
-Modify the `template.yaml` as needed, setting the
+Modify the `template.yaml` as needed, setting the role arn. You should also customize the properties of the function accordingly.
 
 ```
 sam build --use-container
