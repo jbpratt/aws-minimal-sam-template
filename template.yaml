@@ -1,0 +1,23 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: >
+  Minimal Sam Template
+
+Resources:
+  Function:
+    Type: AWS::Serverless::Function
+    Properties:
+      Role: arn:aws:iam::<accountId>:role/<Project>-Lambda-Role
+      CodeUri: src/
+      Handler: app.lambda_handler
+      Runtime: python3.8
+      MemorySize: 128
+      Timeout: 3
+      Environment:
+        Variables:
+          STATE_MACHINE_ARN: ""
+
+Outputs:
+  FunctionArn:
+    Description: "Arn of created function"
+    Value: !GetAtt FunctionFunction.Arn
