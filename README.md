@@ -9,6 +9,7 @@ Setup
 -----
 
 ```
+~ >mkdir project && cd project
 ~ >sam init
 Which template source would you like to use?
 	1 - AWS Quick Start Templates
