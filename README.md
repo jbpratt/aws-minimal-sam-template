@@ -16,7 +16,7 @@ Which template source would you like to use?
 	2 - Custom Template Location
 Choice: 2
 
-Template location (git, mercurial, http(s), zip, path): https://github.com/jbpratt78/aws-sam-minimal-template.git
+Template location (git, mercurial, http(s), zip, path): https://github.com/jbpratt78/aws-minimal-sam-template
 ```
 
 -	Install [pre-commit](https://pre-commit.com/) and run `pre-commit install` to set up Git hooks.
