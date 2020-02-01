@@ -17,4 +17,4 @@ Resources:
 Outputs:
   FunctionArn:
     Description: "Arn of created function"
-    Value: !GetAtt FunctionFunction.Arn
+    Value: !GetAtt Function.Arn
